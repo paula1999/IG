@@ -420,6 +420,33 @@ home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/gra
 	$(MAKE) -f CMakeFiles/pracs_ig_exe.dir/build.make "CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/grafo-escena.cpp.s"
 .PHONY : home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/grafo-escena.cpp.s
 
+home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.o: home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp.o
+
+.PHONY : home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.o
+
+# target to build an object file
+home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp.o:
+	$(MAKE) -f CMakeFiles/pracs_ig_exe.dir/build.make "CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp.o"
+.PHONY : home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp.o
+
+home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.i: home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp.i
+
+.PHONY : home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.i
+
+# target to preprocess a source file
+home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp.i:
+	$(MAKE) -f CMakeFiles/pracs_ig_exe.dir/build.make "CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp.i"
+.PHONY : home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp.i
+
+home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.s: home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp.s
+
+.PHONY : home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.s
+
+# target to generate assembly for a file
+home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp.s:
+	$(MAKE) -f CMakeFiles/pracs_ig_exe.dir/build.make "CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp.s"
+.PHONY : home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp.s
+
 home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/main.o: home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/main.cpp.o
 
 .PHONY : home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/main.o
@@ -528,6 +555,33 @@ home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/mat
 	$(MAKE) -f CMakeFiles/pracs_ig_exe.dir/build.make "CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/materiales-luces.cpp.s"
 .PHONY : home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/materiales-luces.cpp.s
 
+home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.o: home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp.o
+
+.PHONY : home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.o
+
+# target to build an object file
+home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp.o:
+	$(MAKE) -f CMakeFiles/pracs_ig_exe.dir/build.make "CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp.o"
+.PHONY : home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp.o
+
+home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.i: home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp.i
+
+.PHONY : home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.i
+
+# target to preprocess a source file
+home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp.i:
+	$(MAKE) -f CMakeFiles/pracs_ig_exe.dir/build.make "CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp.i"
+.PHONY : home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp.i
+
+home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.s: home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp.s
+
+.PHONY : home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.s
+
+# target to generate assembly for a file
+home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp.s:
+	$(MAKE) -f CMakeFiles/pracs_ig_exe.dir/build.make "CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp.s"
+.PHONY : home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp.s
+
 home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/objeto3d.o: home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/objeto3d.cpp.o
 
 .PHONY : home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/objeto3d.o
@@ -624,6 +678,9 @@ help:
 	@echo "... home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/grafo-escena.o"
 	@echo "... home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/grafo-escena.i"
 	@echo "... home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/grafo-escena.s"
+	@echo "... home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.o"
+	@echo "... home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.i"
+	@echo "... home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.s"
 	@echo "... home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/main.o"
 	@echo "... home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/main.i"
 	@echo "... home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/main.s"
@@ -636,6 +693,9 @@ help:
 	@echo "... home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/materiales-luces.o"
 	@echo "... home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/materiales-luces.i"
 	@echo "... home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/materiales-luces.s"
+	@echo "... home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.o"
+	@echo "... home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.i"
+	@echo "... home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.s"
 	@echo "... home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/objeto3d.o"
 	@echo "... home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/objeto3d.i"
 	@echo "... home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/objeto3d.s"

@@ -1,3 +1,4 @@
+
 // *********************************************************************
 // **
 // ** Informática Gráfica
@@ -87,6 +88,9 @@ Tupla4f Objeto3D::leerFijarColVertsCauce( ContextoVis & cv )
    // leer color previo
    Tupla4f color_previo = cv.cauce_act->leerColorActual();
 
+   if ( cv.visualizando_normales )
+      return color_previo ;
+      
    if ( cv.modo_seleccion )
    {
       // modo seleccion: usar el identificador del objeto, si no es -1

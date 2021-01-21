@@ -103,9 +103,12 @@ CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/m
  ../../../trabajo/include/array-verts.h
  ../../../trabajo/include/camara.h
  ../../../trabajo/include/escena.h
+ ../../../trabajo/include/grafo-escena.h
+ ../../../trabajo/include/latapeones.h
  ../../../trabajo/include/malla-ind.h
  ../../../trabajo/include/malla-revol.h
  ../../../trabajo/include/materiales-luces.h
+ ../../../trabajo/include/modelo-jer.h
  ../../../trabajo/include/objeto3d.h
  ../../../trabajo/include/practicas.h
  ../../../trabajo/include/seleccion.h
@@ -127,6 +130,27 @@ CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/m
  ../../../trabajo/include/objeto3d.h
  ../../../trabajo/include/practicas.h
  /home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/grafo-escena.cpp
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp.o
+ ../../../recursos/include/cauce.h
+ ../../../recursos/include/fbo.h
+ ../../../recursos/include/ig-aux.h
+ ../../../recursos/include/lector-jpg.h
+ ../../../recursos/include/matrices-tr.h
+ ../../../recursos/include/matrizg.h
+ ../../../recursos/include/matrizg_impl.h
+ ../../../recursos/include/tuplasg.h
+ ../../../recursos/include/tuplasg_impl.h
+ ../../../trabajo/include/array-verts.h
+ ../../../trabajo/include/camara.h
+ ../../../trabajo/include/escena.h
+ ../../../trabajo/include/grafo-escena.h
+ ../../../trabajo/include/latapeones.h
+ ../../../trabajo/include/malla-ind.h
+ ../../../trabajo/include/malla-revol.h
+ ../../../trabajo/include/materiales-luces.h
+ ../../../trabajo/include/objeto3d.h
+ ../../../trabajo/include/practicas.h
+ /home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp
 CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/main.cpp.o
  ../../../recursos/include/cauce.h
  ../../../recursos/include/fbo.h
@@ -159,6 +183,7 @@ CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/m
  ../../../trabajo/include/array-verts.h
  ../../../trabajo/include/camara.h
  ../../../trabajo/include/escena.h
+ ../../../trabajo/include/grafo-escena.h
  ../../../trabajo/include/malla-ind.h
  ../../../trabajo/include/materiales-luces.h
  ../../../trabajo/include/objeto3d.h
@@ -178,6 +203,7 @@ CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/m
  ../../../trabajo/include/array-verts.h
  ../../../trabajo/include/camara.h
  ../../../trabajo/include/escena.h
+ ../../../trabajo/include/grafo-escena.h
  ../../../trabajo/include/malla-ind.h
  ../../../trabajo/include/malla-revol.h
  ../../../trabajo/include/materiales-luces.h
@@ -196,6 +222,27 @@ CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/m
  ../../../recursos/include/tuplasg_impl.h
  ../../../trabajo/include/materiales-luces.h
  /home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/materiales-luces.cpp
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp.o
+ ../../../recursos/include/cauce.h
+ ../../../recursos/include/fbo.h
+ ../../../recursos/include/ig-aux.h
+ ../../../recursos/include/lector-jpg.h
+ ../../../recursos/include/matrices-tr.h
+ ../../../recursos/include/matrizg.h
+ ../../../recursos/include/matrizg_impl.h
+ ../../../recursos/include/tuplasg.h
+ ../../../recursos/include/tuplasg_impl.h
+ ../../../trabajo/include/array-verts.h
+ ../../../trabajo/include/camara.h
+ ../../../trabajo/include/escena.h
+ ../../../trabajo/include/grafo-escena.h
+ ../../../trabajo/include/malla-ind.h
+ ../../../trabajo/include/malla-revol.h
+ ../../../trabajo/include/materiales-luces.h
+ ../../../trabajo/include/modelo-jer.h
+ ../../../trabajo/include/objeto3d.h
+ ../../../trabajo/include/practicas.h
+ /home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp
 CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/objeto3d.cpp.o
  ../../../recursos/include/cauce.h
  ../../../recursos/include/fbo.h

@@ -1,3 +1,4 @@
+
 // *********************************************************************
 // **
 // ** Informática Gráfica, curso 2016-17
@@ -12,6 +13,7 @@
 
 #include "objeto3d.h"   // declaración de 'Objeto3D'
 #include "array-verts.h" // clase 'ArrayVert'
+#include "grafo-escena.h"
 
 // ---------------------------------------------------------------------
 // clase para objetos gráficos genéricos
@@ -27,6 +29,11 @@ class MallaInd : public Objeto3D
 
       std::vector<Tupla3f> vertices ;
       std::vector<Tupla3i> triangulos ;
+
+      // array de vértices con los segmentos de las normales (vis. con GL_LINES)
+      // ( se crea bajo demanda en `visualizarNormales`)
+      ArrayVertices * array_verts_normales = nullptr ;
+      std::vector<Tupla3f> segmentos_normales ; // guarda los segmentos de normales
 
       std::vector<Tupla3f> col_ver ;  // colores de los vértices
       std::vector<Tupla3f> nor_ver ;  // normales de vértices
@@ -46,7 +53,7 @@ class MallaInd : public Objeto3D
       // calculo de las normales de triángulos (solo si no están creadas ya)
       void calcularNormalesTriangulos() ;
 
-
+      void visualizarNormales();
 
    public:
       // crea una malla vacía (nombre: "malla indexada nueva vacía")
@@ -90,6 +97,14 @@ class Cubo24 : public MallaInd
 {
   public:
       Cubo24();
+} ;
+
+// --------------------------------------------------------------------
+
+class NodoCubo24 : public NodoGrafoEscena
+{
+  public:
+      NodoCubo24();
 } ;
 
 // --------------------------------------------------------------------

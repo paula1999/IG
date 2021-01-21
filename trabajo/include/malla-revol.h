@@ -1,3 +1,4 @@
+
 // *********************************************************************
 // **
 // ** Informática Gráfica, curso 2016-17
@@ -51,6 +52,13 @@ class Cilindro : public MallaRevol {
    //Constructor: crea el perfil original y llama a inicializar
    // la base tiene el centro en el origen, el radio y la altura son 1
    Cilindro (const int num_verts_per, const unsigned nperfiles);
+};
+
+class Cilindro2 : public MallaRevol {
+   public:
+   //Constructor: crea el perfil original y llama a inicializar
+   // la base tiene el centro en el origen, el radio y la altura son 1
+   Cilindro2 (const int num_verts_per, const unsigned nperfiles);
 };
 
 class Cono : public MallaRevol {

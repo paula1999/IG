@@ -1,3 +1,4 @@
+
 // *********************************************************************
 // **
 // ** Informática Gráfica, curso 2016-17
@@ -152,7 +153,8 @@ void FGE_PulsarLevantarTecla( GLFWwindow* window, int key, int scancode, int act
       // de luz actual (usar método 'colFuentes' de la escena activa para obtener un puntero), llamar a
       // 'ProcesaTeclaFuenteLuz', si devuelve 'true', forzar revisualizar escena.
       // .....
-
+      ColFuentesLuz * colFuentesLuz = escenas[ind_escena_act]->colFuentes();
+      revisualizar_escena = ProcesaTeclaFuenteLuz(colFuentesLuz, key);
       return ; // finalizar la f.g.e, ya que si está la tecla L pulsada no se mira ninguna otra tecla.
    }
 
@@ -163,6 +165,8 @@ void FGE_PulsarLevantarTecla( GLFWwindow* window, int key, int scancode, int act
       // COMPLETAR: Práctica 3: procesar la tecla 'key' para actualizar estado de animación
       // del objeto actual ('objeto'), se debe usar 'ProcesarTeclaAnimacion' si devuelve
       // 'true', forzar revisualizar escena (asignando valor a 'revisualizar_escena')
+
+      revisualizar_escena = ProcesarTeclaAnimacion (objeto, key);
 
       return ; // finalizar la f.g.e, ya que si está la tecla A pulsada no se mira ninguna otra tecla.
    }
@@ -281,8 +285,6 @@ void FGE_PulsarLevantarTecla( GLFWwindow* window, int key, int scancode, int act
 
 
       // COMPLETAR; Práctica 5. conmutar 'cv.visualizar_fbo' con la tecla 'Y'
-
-
       case GLFW_KEY_T :
          imprimir_tiempos = ! imprimir_tiempos ;
          cout << "imprimir tiempos : " << (imprimir_tiempos ? "activado" : "desactivado") << endl << flush ;
@@ -466,8 +468,9 @@ void Inicializar( int argc, char *argv[] )
    // 'Escena3', etc..
    // ......
    escenas.push_back( new Escena2() );
-
-
+   escenas.push_back( new Escena3() );
+   escenas.push_back( new Escena4() );
+   escenas.push_back( new Escena5() );
 }
 
 // ---------------------------------------------------------------------

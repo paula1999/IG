@@ -1,3 +1,4 @@
+
 // *********************************************************************
 // **
 // ** Informática Gráfica - curso 2020-21
@@ -75,6 +76,9 @@ class Escena
 
    // índice del objeto activo (en el vector 'objetos')
    unsigned ind_objeto_actual = 0 ;
+
+   // visualizar normales
+   void visualizarNormales (ContextoVis & cv);
 } ;
 
 
@@ -100,5 +104,22 @@ class Escena2 : public Escena
       Escena2() ;
 } ;
 
+class Escena3 : public Escena
+{
+   public:
+      Escena3() ;
+} ;
+
+class Escena4 : public Escena
+{
+   public:
+      Escena4() ;
+} ;
+
+class Escena5 : public Escena
+{
+   public:
+      Escena5() ;
+} ;
 
 #endif // ESCENA_H

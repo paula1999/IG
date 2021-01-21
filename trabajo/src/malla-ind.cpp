@@ -1,3 +1,4 @@
+
 // *********************************************************************
 // **
 // ** Informática Gráfica, curso 2020-21
@@ -36,7 +37,6 @@ MallaInd::MallaInd( const std::string & nombreIni )
 
 void MallaInd::calcularNormalesTriangulos()
 {
-
    // si ya está creada la tabla de normales de triángulos, no es necesario volver a crearla
    const unsigned nt = triangulos.size() ;
    assert( 1 <= nt );
@@ -48,7 +48,21 @@ void MallaInd::calcularNormalesTriangulos()
 
    // COMPLETAR: Práctica 4: creación de la tabla de normales de triángulos
    // ....
+   Tupla3f p, q, r, a, b, m_c;
 
+   for (int i = 0; i < triangulos.size(); i++){
+      p = vertices[triangulos[i](0)];
+      q = vertices[triangulos[i](1)];
+      r = vertices[triangulos[i](2)];
+      a = q-p;
+      b = r-p;
+      m_c = a.cross(b);
+
+      if (m_c.lengthSq() > 0)
+         nor_tri.push_back(m_c.normalized());
+      else 
+         nor_tri.push_back({0, 0, 0});
+   }
 }
 
 
@@ -60,8 +74,20 @@ void MallaInd::calcularNormales()
    // COMPLETAR: en la práctica 4: calculo de las normales de la malla
    // se debe invocar en primer lugar 'calcularNormalesTriangulos'
    // .......
+   calcularNormalesTriangulos();
 
+   for (int i = 0; i < vertices.size(); i++)
+      nor_ver.push_back({0.0, 0.0, 0.0});
 
+   for (int i = 0; i < triangulos.size(); i++){
+      nor_ver[triangulos[i](0)] = nor_ver[triangulos[i](0)] + nor_tri[i];
+      nor_ver[triangulos[i](1)] = nor_ver[triangulos[i](1)] + nor_tri[i];
+      nor_ver[triangulos[i](2)] = nor_ver[triangulos[i](2)] + nor_tri[i];
+   }
+
+   for (int i = 0; i < vertices.size(); i++)
+      if (nor_ver[i].lengthSq() > 0)
+         nor_ver[i] = nor_ver[i].normalized();
 }
 
 
@@ -75,6 +101,10 @@ void MallaInd::visualizarGL( ContextoVis & cv )
 
    using namespace std ;
    assert( cv.cauce_act != nullptr );
+
+   if (cv.visualizando_normales){
+      visualizarNormales();
+   }
 
    if ( triangulos.size() == 0 || vertices.size() == 0 )
    {  cout << "advertencia: intentando dibujar malla vacía '" << leerNombre() << "'" << endl << flush ;
@@ -92,16 +122,16 @@ void MallaInd::visualizarGL( ContextoVis & cv )
 
    if (array_verts == nullptr){
       array_verts = new ArrayVertices(GL_FLOAT, 3, vertices.size(), vertices.data());
+   
+      array_verts->fijarIndices(GL_UNSIGNED_INT, 3*triangulos.size(), triangulos.data());
+
+      if (col_ver.size() != 0)
+         array_verts->fijarColores(GL_FLOAT, 3, col_ver.data());
+      if (cc_tt_ver.size() != 0)
+         array_verts->fijarCoordText(GL_FLOAT, 2, cc_tt_ver.data());
+      if (nor_ver.size() != 0)
+         array_verts->fijarNormales(GL_FLOAT, nor_ver.data());
    }
-
-   array_verts->fijarIndices(GL_UNSIGNED_INT, 3*triangulos.size(), triangulos.data());
-
-   if (col_ver.size() != 0)
-      array_verts->fijarColores(GL_FLOAT, 3, col_ver.data());
-   if (cc_tt_ver.size() != 0)
-      array_verts->fijarCoordText(GL_FLOAT, 3, cc_tt_ver.data());
-   if (nor_ver.size() != 0)
-      array_verts->fijarNormales(GL_FLOAT, nor_ver.data());
 
    // COMPLETAR: práctica 1: visualizar según el modo (en 'cv.modo_envio')
    //   ** inmediato begin/end       : usar método 'visualizarGL_MI_BVE' de 'ArrayVerts'
@@ -128,6 +158,29 @@ void MallaInd::visualizarGL( ContextoVis & cv )
 
 
 
+// Visualizar normales
+
+void MallaInd::visualizarNormales(){
+   using namespace std;
+
+   if (nor_ver.size() == 0){
+      cout << "Advertencia: intentando dibujar normales de una malla que no tiene tabla(" << leerNombre() << ")." << endl;
+      return ;
+   }
+   
+   if (array_verts_normales == nullptr){
+      for (unsigned i = 0; i < vertices.size(); i++){
+         segmentos_normales.push_back(vertices[i]);
+         segmentos_normales.push_back(vertices[i] + 0.35f * (nor_ver[i]));
+      }
+
+      array_verts_normales = new ArrayVertices(GL_FLOAT, 3, segmentos_normales.size(), segmentos_normales.data());
+   }
+
+   array_verts_normales->visualizarGL_MI_DAE(GL_LINES);
+   CError();
+}
+
 
 
 
@@ -147,9 +200,7 @@ MallaPLY::MallaPLY( const std::string & nombre_arch )
 
    // COMPLETAR: práctica 4: invocar  a 'calcularNormales' para el cálculo de normales
    // .................
-
-
-
+   calcularNormales();
 }
 
 // ****************************************************************************
@@ -183,6 +234,7 @@ Cubo::Cubo()
          {1,5,7}, {1,7,3}  // Z+ (+1)
       } ;
 
+   calcularNormales();
 }
 // -----------------------------------------------------------------------------------------------
 
@@ -208,6 +260,7 @@ Tetraedro::Tetraedro()
       } ;
 
    ponerColor({1.0, 1.0, -1.0});
+   calcularNormales();
 }
 // -----------------------------------------------------------------------------------------------
 
@@ -249,3 +302,62 @@ CuboColores::CuboColores()
        col_ver[i][j] = vertices[i][j]*0.5+0.5;
 }
 // -----------------------------------------------------------------------------------------------
+
+Cubo24::Cubo24(){
+   vertices = 
+      {
+         {-1.0,-1.0,-1.0}, {-1.0,-1.0,1.0},
+         {1.0,-1.0,-1.0}, {1.0,-1.0,1.0},
+         
+         {-1.0,1.0,-1.0}, {-1.0,1.0,1.0},
+         {1.0,1.0,-1.0}, {1.0,1.0,1.0},
+
+         {-1.0,1.0,1.0}, {1.0,1.0,1.0},
+         {-1.0,-1.0,1.0}, {1.0,-1.0,1.0},
+
+         {-1.0,1.0,-1.0}, {1.0,1.0,-1.0},
+         {-1.0,-1.0,-1.0}, {1.0,-1.0,-1.0},
+
+         {-1.0,1.0,-1.0}, {-1.0,1.0,1.0},        
+         {-1.0,-1.0,-1.0}, {-1.0,-1.0,1.0},
+
+         {1.0,1.0,-1.0}, {1.0,1.0,1.0},
+         {1.0,-1.0,-1.0}, {1.0,-1.0,1.0} 
+      };
+
+      triangulos = 
+         {
+            {0,2,1}, {3,1,2},
+            {4,5,6}, {7,6,5},
+            {9,8,10}, {9,10,11},
+            {13,14,12}, {13,15,14},
+            {17,16,18}, {17,18,19},
+            {21,20,22}, {21,23,22}
+         };
+
+      cc_tt_ver = 
+         {
+            {0.0,1.0}, {0.0,0.0},
+            {1.0,1.0}, {1.0,0.0},
+            {0.0,0.0}, {0.0,1.0},
+            {1.0,0.0}, {1.0,1.0},
+            {0.0,0.0}, {1.0,0.0},
+            {0.0,1.0}, {1.0,1.0},
+            {1.0,0.0}, {0.0,0.0},
+            {1.0,1.0}, {0.0,1.0},
+            {0.0,0.0}, {1.0,0.0},
+            {0.0,1.0}, {1.0,1.0},
+            {1.0,0.0}, {0.0,0.0},
+            {1.0,1.0}, {0.0,1.0},
+         };
+
+      calcularNormales();
+}
+
+NodoCubo24::NodoCubo24(){
+   Textura * tex = new Textura("../recursos/imgs/window-icon.jpg");
+   Material * mat = new Material(tex, 0.5, 0.7, 0.9, 10);
+
+   agregar(mat);
+   agregar(new Cubo24());
+}

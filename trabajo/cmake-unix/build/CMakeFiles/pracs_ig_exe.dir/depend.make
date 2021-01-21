@@ -102,9 +102,12 @@ CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/m
 CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/escena.cpp.o: ../../../trabajo/include/array-verts.h
 CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/escena.cpp.o: ../../../trabajo/include/camara.h
 CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/escena.cpp.o: ../../../trabajo/include/escena.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/escena.cpp.o: ../../../trabajo/include/grafo-escena.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/escena.cpp.o: ../../../trabajo/include/latapeones.h
 CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/escena.cpp.o: ../../../trabajo/include/malla-ind.h
 CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/escena.cpp.o: ../../../trabajo/include/malla-revol.h
 CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/escena.cpp.o: ../../../trabajo/include/materiales-luces.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/escena.cpp.o: ../../../trabajo/include/modelo-jer.h
 CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/escena.cpp.o: ../../../trabajo/include/objeto3d.h
 CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/escena.cpp.o: ../../../trabajo/include/practicas.h
 CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/escena.cpp.o: ../../../trabajo/include/seleccion.h
@@ -126,6 +129,27 @@ CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/m
 CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/grafo-escena.cpp.o: ../../../trabajo/include/objeto3d.h
 CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/grafo-escena.cpp.o: ../../../trabajo/include/practicas.h
 CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/grafo-escena.cpp.o: /home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/grafo-escena.cpp
+
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp.o: ../../../recursos/include/cauce.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp.o: ../../../recursos/include/fbo.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp.o: ../../../recursos/include/ig-aux.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp.o: ../../../recursos/include/lector-jpg.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp.o: ../../../recursos/include/matrices-tr.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp.o: ../../../recursos/include/matrizg.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp.o: ../../../recursos/include/matrizg_impl.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp.o: ../../../recursos/include/tuplasg.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp.o: ../../../recursos/include/tuplasg_impl.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp.o: ../../../trabajo/include/array-verts.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp.o: ../../../trabajo/include/camara.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp.o: ../../../trabajo/include/escena.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp.o: ../../../trabajo/include/grafo-escena.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp.o: ../../../trabajo/include/latapeones.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp.o: ../../../trabajo/include/malla-ind.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp.o: ../../../trabajo/include/malla-revol.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp.o: ../../../trabajo/include/materiales-luces.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp.o: ../../../trabajo/include/objeto3d.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp.o: ../../../trabajo/include/practicas.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp.o: /home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/latapeones.cpp
 
 CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/main.cpp.o: ../../../recursos/include/cauce.h
 CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/main.cpp.o: ../../../recursos/include/fbo.h
@@ -158,6 +182,7 @@ CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/m
 CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/malla-ind.cpp.o: ../../../trabajo/include/array-verts.h
 CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/malla-ind.cpp.o: ../../../trabajo/include/camara.h
 CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/malla-ind.cpp.o: ../../../trabajo/include/escena.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/malla-ind.cpp.o: ../../../trabajo/include/grafo-escena.h
 CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/malla-ind.cpp.o: ../../../trabajo/include/malla-ind.h
 CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/malla-ind.cpp.o: ../../../trabajo/include/materiales-luces.h
 CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/malla-ind.cpp.o: ../../../trabajo/include/objeto3d.h
@@ -177,6 +202,7 @@ CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/m
 CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/malla-revol.cpp.o: ../../../trabajo/include/array-verts.h
 CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/malla-revol.cpp.o: ../../../trabajo/include/camara.h
 CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/malla-revol.cpp.o: ../../../trabajo/include/escena.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/malla-revol.cpp.o: ../../../trabajo/include/grafo-escena.h
 CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/malla-revol.cpp.o: ../../../trabajo/include/malla-ind.h
 CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/malla-revol.cpp.o: ../../../trabajo/include/malla-revol.h
 CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/malla-revol.cpp.o: ../../../trabajo/include/materiales-luces.h
@@ -195,6 +221,27 @@ CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/m
 CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/materiales-luces.cpp.o: ../../../recursos/include/tuplasg_impl.h
 CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/materiales-luces.cpp.o: ../../../trabajo/include/materiales-luces.h
 CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/materiales-luces.cpp.o: /home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/materiales-luces.cpp
+
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp.o: ../../../recursos/include/cauce.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp.o: ../../../recursos/include/fbo.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp.o: ../../../recursos/include/ig-aux.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp.o: ../../../recursos/include/lector-jpg.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp.o: ../../../recursos/include/matrices-tr.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp.o: ../../../recursos/include/matrizg.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp.o: ../../../recursos/include/matrizg_impl.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp.o: ../../../recursos/include/tuplasg.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp.o: ../../../recursos/include/tuplasg_impl.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp.o: ../../../trabajo/include/array-verts.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp.o: ../../../trabajo/include/camara.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp.o: ../../../trabajo/include/escena.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp.o: ../../../trabajo/include/grafo-escena.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp.o: ../../../trabajo/include/malla-ind.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp.o: ../../../trabajo/include/malla-revol.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp.o: ../../../trabajo/include/materiales-luces.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp.o: ../../../trabajo/include/modelo-jer.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp.o: ../../../trabajo/include/objeto3d.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp.o: ../../../trabajo/include/practicas.h
+CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp.o: /home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/modelo-jer.cpp
 
 CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/objeto3d.cpp.o: ../../../recursos/include/cauce.h
 CMakeFiles/pracs_ig_exe.dir/home/paula/Dropbox/DGIIM/4_(20-21)/C1/IG/Practicas/materiales-ig/trabajo/src/objeto3d.cpp.o: ../../../recursos/include/fbo.h
